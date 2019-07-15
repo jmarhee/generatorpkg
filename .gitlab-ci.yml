@@ -1,7 +1,7 @@
 image: golang:latest
 
 variables:
-  REPO_NAME: gitlab.com/jmarhee/genmacaddr
+  REPO_NAME: gitlab.com/jmarhee/generatorpkg
 
 stages:
   - test
