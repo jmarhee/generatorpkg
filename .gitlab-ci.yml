@@ -1,0 +1,14 @@
+image: golang:latest
+
+variables:
+  REPO_NAME: gitlab.com/jmarhee/genmacaddr
+
+stages:
+  - test
+
+format:
+  stage: test
+  script:
+    - go get -u $REPO_NAME
+    - go test -v -run=TestMac
+
