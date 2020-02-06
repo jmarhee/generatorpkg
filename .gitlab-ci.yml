@@ -11,4 +11,4 @@ format:
   script:
     - go get -u $REPO_NAME
     - go test -v -run=TestMac
-
+    - go test -v -run=TestUuid
